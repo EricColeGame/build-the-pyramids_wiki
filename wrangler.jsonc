@@ -1,0 +1,14 @@
+{
+  "name": "build-the-pyramids-wiki",
+  "compatibility_date": "2024-09-01",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./out"
+  },
+  "routes": [
+    {
+      "pattern": "build-the-pyramids.wiki",
+      "custom_domain": true
+    }
+  ]
+}
