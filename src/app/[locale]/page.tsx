@@ -27,7 +27,16 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const loc = locale as Locale;
   const messages = (await getMessages({ locale })) as Messages;
   const navGroups = getDynamicNavigation(loc);
-  const webSite = { "@context": "https://schema.org", "@type": "WebSite", name: siteConfig.name, url: siteUrl, description: messages.home.meta.description };
+  const webSite = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteConfig.name,
+    alternateName: siteConfig.shortName,
+    url: `${siteUrl}/${locale}`,
+    description: messages.home.meta.description,
+    inLanguage: locale,
+    publisher: { "@type": "Organization", name: siteConfig.name, url: siteUrl, logo: { "@type": "ImageObject", url: `${siteUrl}/android-chrome-512x512.png` } },
+  };
 
   // 动态加载所有 content 目录下的文章
   const allArticles: ContentItem[] = [];

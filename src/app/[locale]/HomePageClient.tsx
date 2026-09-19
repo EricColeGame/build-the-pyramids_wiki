@@ -33,6 +33,11 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
         </div>
         <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-muted-foreground">{home.hero.description}</p>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-1.5">{home.hero.stats.map((stat) => <span key={stat} className="inline-flex items-center gap-1 rounded-full bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground">{stat}</span>)}</div>
+        <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+          <Button asChild size="lg"><Link href={localizeHref("/guide", locale)}>{home.hero.primaryCta}<ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
+          <Button asChild size="lg" variant="outline"><Link href={siteConfig.gameUrl || "#"} target="_blank" rel="noopener noreferrer">{home.hero.secondaryCta}</Link></Button>
+          <Button asChild size="lg" variant="ghost"><Link href={localizeHref("/codes", locale)}>{home.hero.tertiaryCta}</Link></Button>
+        </div>
       </section>
 
       {/* Promo video — must sit immediately after the hero, not further down the page */}

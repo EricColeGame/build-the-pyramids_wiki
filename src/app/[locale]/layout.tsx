@@ -14,6 +14,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://build-the-pyramids.wiki";
 
+// og:locale 必须是 language_TERRITORY 格式，直接写 "en" 会被社交平台判为无效值而回退到默认语言
+const OG_LOCALES: Record<string, string> = { en: "en_US", es: "es_ES", pt: "pt_BR", de: "de_DE", fr: "fr_FR" };
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -35,7 +38,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image, width: 1023, height: 576, alt: siteConfig.name }] },
+    keywords: ["Build the Pyramids", "Roblox", "pyramid simulator", "building game", "construction", "wiki", "codes", "guides"],
+    openGraph: { type: "website", locale: OG_LOCALES[locale] ?? locale, url: `${siteUrl}/${locale}`, siteName: siteConfig.name, images: [{ url: image, width: 1023, height: 576, alt: siteConfig.name }] },
     twitter: { card: "summary_large_image", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
@@ -46,13 +50,17 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   setRequestLocale(locale);
   if (!hasLocale(routing.locales, locale)) notFound();
   const messages = await getMessages({ locale });
+  const socialLinks = [siteConfig.social?.discord, siteConfig.social?.youtube, siteConfig.social?.twitter, siteConfig.social?.tiktok].filter((link): link is string => Boolean(link));
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: siteConfig.name,
+    alternateName: siteConfig.shortName,
     url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
+    description: siteConfig.description,
+    logo: { "@type": "ImageObject", url: `${siteUrl}/android-chrome-512x512.png`, width: 512, height: 512 },
     image: `${siteUrl}/images/hero.webp`,
+    ...(socialLinks.length > 0 ? { sameAs: socialLinks } : {}),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
