@@ -8,6 +8,11 @@
   },
   "nav": {
     "home": "Home",
+    "guide": "Guide",
+    "construction": "Construction",
+    "theories": "Theories",
+    "history": "History",
+    "media": "Media",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
@@ -473,7 +478,26 @@
       "secondary": "Play Build the Pyramid"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Build the Pyramids Guides",
+    "overviewDescription": "Start here. How the pyramids were built, who built them, when, and why — plain-language answers to the questions readers ask first about the Giza plateau."
+  },
+  "construction": {
+    "overviewTitle": "Build the Pyramids Construction Methods",
+    "overviewDescription": "Quarrying limestone, hauling Aswan granite, copper tools, sledges, and ramp systems — the engineering that raised the Great Pyramid one block at a time."
+  },
+  "theories": {
+    "overviewTitle": "Build the Pyramids Theories",
+    "overviewDescription": "Aliens, slaves, or paid skilled workers? The archaeological evidence behind each explanation of how the pyramids were built, weighed against the record."
+  },
+  "history": {
+    "overviewTitle": "Build the Pyramids History",
+    "overviewDescription": "Fourth Dynasty pharaohs, the Giza plateau, and the step pyramids that came first — the timeline of Egypt's monumental building age."
+  },
+  "media": {
+    "overviewTitle": "Build the Pyramids Documentaries",
+    "overviewDescription": "Documentaries, videos, and shows about how the pyramids were built, plus what each one covers and which claims hold up."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -502,10 +526,11 @@
     "playGame": "Play Build the Pyramids",
     "officialDiscord": "Roblox Group (Janitors Studios)",
     "officialYoutube": "Roblox on YouTube",
-    "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "guideLink": "Guide",
+    "constructionLink": "Construction",
+    "theoriesLink": "Theories",
+    "historyLink": "History",
+    "mediaLink": "Media",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

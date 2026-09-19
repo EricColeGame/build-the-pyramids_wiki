@@ -36,6 +36,8 @@ export const siteConfig: SiteConfig = {
     discord: "https://www.roblox.com/communities/907940218/Janitors-Studios",
     youtube: "https://www.youtube.com/@roblox",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  // 语言集合的唯一真相源是 src/i18n/routing.ts，此处仅为镜像取值；
+  // 模板旧值含已移除的 "fr"，与 routing.locales 对齐（当前无消费者）。
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };
