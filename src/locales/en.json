@@ -13,326 +13,464 @@
   },
   "home": {
     "meta": {
-      "title": "Build the Pyramids Wiki - Codes, Guides & Tips",
-      "description": "Build the Pyramids Wiki provides Roblox guides, pyramid building tips, gameplay strategies, updates, and resources to help players master the ancient building simulator."
+      "title": "Build the Pyramids Wiki: Construction & History",
+      "description": "How were the pyramids built? Guides on Giza construction methods, limestone and granite materials, copper tools, the workforce, build timelines, and the theories behind them."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
+      "eyebrow": "Ancient Engineering Explained",
       "title": "Build the Pyramids Wiki",
-      "description": "Master pyramid building in Build the Pyramids on Roblox. Learn the fastest block-carrying routes, upgrade priorities, item uses, and co-op strategies to finish every pyramid.",
+      "description": "How were the pyramids built? This wiki works through the evidence: quarrying 2.3 million limestone blocks, hauling Aswan granite 500 miles down the Nile, dragging sledges over wetted sand, and raising earthen ramps past 400 feet.",
       "stats": [
-        "All Codes",
-        "Beginner Guides",
-        "Upgrade Paths",
-        "Building Tips"
+        "4th Dynasty",
+        "481.4 ft Tallest",
+        "2.3M Blocks",
+        "~20,000 Peak Workers"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Play on Roblox",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Gameplay walkthrough"
+      "secondaryCta": "Play Build the Pyramid",
+      "tertiaryCta": "How the Pyramids Were Built",
+      "videoLabel": "Construction walkthrough"
     },
     "updates": {
-      "title": "Latest Updates",
+      "title": "Latest Articles",
       "browse": "Browse All Guides",
       "viewAll": "View All"
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Build the Pyramids Journey",
+      "title": "Your Build the Pyramids Starting Point",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Begin with the Fourth Dynasty and the three Giza monuments: who ordered them, when they were raised, and what they were for."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Construction Methods",
+          "description": "See how 2.3 million limestone blocks were quarried, dragged on wetted sand, floated on river barges, and lifted on earthen ramps."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Workforce Evidence",
+          "description": "Follow the archaeology that ended the slave myth: worker villages, bakeries, medical care, and honoured burials beside the monuments."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Build the Pyramids."
+          "title": "Theories Ranked",
+          "description": "Weigh the competing explanations, from Nile-fed hydraulic lifts to alien intervention, against the excavated record."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Most Read Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Giza Plateau",
+        "Great Pyramid",
+        "Workforce",
+        "Theories"
       ],
       "cards": [
         {
-          "badge": "Beginner",
+          "badge": "Start Here",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "The full starting path through the Giza monuments, the people who built them, and the materials they worked.",
+          "href": "/guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Core",
+          "title": "How the Pyramids Were Built",
+          "description": "The working model: quarrying, sledges, wetted sand, river barges, and the ramp systems that raised the stone.",
+          "href": "/guide/build-the-pyramids-how-were-the-pyramids-built"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Who Built the Pyramids",
+          "description": "The artisans, surveyors, and seasonal farmers behind the monuments, and the evidence that identifies them.",
+          "href": "/guide/build-the-pyramids-who-built-the-pyramids"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Core",
+          "title": "Pyramids of Giza",
+          "description": "Khufu, Khafre, and Menkaure compared by height, base length, block count, and casing material.",
+          "href": "/history/build-the-pyramids-pyramids-of-giza"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Tools Used to Build the Pyramids",
+          "description": "Copper chisels, dolerite pounders, quartz abrasives, and the wooden wedges that split limestone from bedrock.",
+          "href": "/construction/build-the-pyramids-tools-used-to-build-the-pyramids"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Core",
+          "title": "Materials Used at Giza",
+          "description": "Local nummulitic limestone, fine Tura casing, and the pink Aswan granite reserved for the King's Chamber.",
+          "href": "/construction/build-the-pyramids-materials-used-to-build-the-pyramids-of-giza"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Debated",
+          "title": "Did Slaves Build the Pyramids?",
+          "description": "The archaeology of the workers' town, rations, medical treatment, and honoured cemeteries at Giza.",
+          "href": "/theories/build-the-pyramids-did-slaves-build-the-pyramids"
+        },
+        {
+          "badge": "Debated",
+          "title": "Did Aliens Build the Pyramids?",
+          "description": "Why the lost-technology argument fails against the excavated copper, dolerite, rope, and sledge toolkits.",
+          "href": "/theories/build-the-pyramids-did-aliens-build-the-pyramids"
+        },
+        {
+          "badge": "Watch",
+          "title": "Pyramid Documentaries",
+          "description": "Documentary, video, and feature-length programmes on Giza, its builders, and the engineering debates.",
+          "href": "/media/build-the-pyramids-documentary"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is Build the Pyramids?",
+      "title": "What Is Build the Pyramids?",
       "paragraphs": [
-        "Build the Pyramids is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Build the Pyramids covers the engineering behind Egypt's Giza monuments, the three Fourth Dynasty tombs raised for Khufu, Khafre, and Menkaure between roughly 2550 and 2490 BCE. Every guide here works from excavated evidence: quarry marks, tool assemblages, workers' villages, administrative papyri, and the monuments themselves.",
+        "Across 32 articles you can follow the whole chain of construction, from cutting limestone on the plateau and shipping granite 500 miles down the Nile to dragging blocks on wetted sand and lifting them up earthen ramps past 400 feet. The theories section weighs each competing explanation, hydraulic lifts, lost technology, and slave labour, against what the archaeological record actually shows."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Janitors Studios"
+          "label": "Monuments",
+          "value": "3 Giza Pyramids"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Peak Height",
+          "value": "481.4 ft"
         },
         {
-          "label": "Genre",
-          "value": "Fighting RPG"
+          "label": "Core Blocks",
+          "value": "~2.3 Million"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Build Window",
+          "value": "20-27 Years"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Peak Workforce",
+          "value": "~20,000"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Granite Haul",
+          "value": "500 Miles"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore Build the Pyramids Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore the Build the Pyramids Wiki",
+      "description": "Eight guided sections covering how the pyramids were built: construction methods, materials, tools, the workforce, the build timeline, and the theories still argued over today.",
       "modules": [
         {
           "order": 1,
-          "name": "Build the Pyramids Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/build-the-pyramids-codes",
-          "displayType": "code-box",
+          "name": "Build the Pyramids Beginner Guide",
+          "description": "A starting path through the Giza monuments: who ordered them, when they were raised, what they were for, and how the building crews were organised.",
+          "href": "/guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Begin with the setting: Khufu, Khafre, and Menkaure raised the Giza pyramids during Egypt's 4th Dynasty, between roughly 2550 and 2490 BCE."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Learn what a pyramid was for: a royal tomb and a solar stairway carrying the pharaoh's ka up to join the sun god Ra."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Meet the three monuments: the Great Pyramid at 481.4 ft, Khafre's at 471 ft, and Menkaure's at 218 ft."
+            },
+            {
+              "label": "4",
+              "detail": "See how the workforce was organised: 4,000 to 5,000 permanent specialists supported by 15,000 to 20,000 seasonal labourers."
+            },
+            {
+              "label": "5",
+              "detail": "Trace the materials from quarry to plateau: local limestone core, fine Tura casing, and Aswan granite from over 500 miles upstream."
+            },
+            {
+              "label": "6",
+              "detail": "Finish with the engineering: copper chisels, dolerite pounders, water-lubricated sledges, and earthen ramps climbing past 400 ft."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/build-the-pyramids-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Build the Pyramids Construction Methods",
+          "description": "The working construction model: quarrying, sledges on wetted sand, river barges, earthen ramps, and the surveying that fixed true north.",
+          "href": "/construction",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Quarrying",
+              "detail": "Open-trench quarrying in the Giza bedrock produced rough core blocks averaging about 2.5 tons each."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Ramps",
+              "detail": "Straight ramps served the lower courses, while zigzag and internal spiral ramps carried stone into the upper tiers."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Sledges",
+              "detail": "Low wooden sledges on wetted sand cut sliding friction by roughly 50 percent, letting small crews haul 60-ton blocks."
+            },
+            {
+              "label": "Barges",
+              "detail": "Sycamore-hulled cargo barges of 100 to 300 tons moved granite and Tura limestone along the flooded Nile."
+            },
+            {
+              "label": "Casing",
+              "detail": "Fine white Tura limestone was fitted as the outer shell, giving the finished pyramid its smooth reflective face."
+            },
+            {
+              "label": "Alignment",
+              "detail": "Builders fixed true north with shadow-casting gnomons and observations of the circumpolar stars."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/build-the-pyramids-tier-list",
-          "displayType": "tier-grid",
+          "name": "Build the Pyramids Great Pyramid Facts",
+          "description": "The headline numbers for Khufu's monument, from its original height and base length to its block count and internal chambers.",
+          "href": "/history/build-the-pyramids-great-pyramid",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "481.4 ft",
+              "detail": "Original height of Khufu's Great Pyramid, the tallest human-made structure on Earth for more than 3,800 years.",
+              "badge": "Height"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "756 ft",
+              "detail": "Length of each side of the base, laid out to within a fraction of a degree of true north.",
+              "badge": "Base"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "2.3M",
+              "detail": "Estimated number of stone blocks in the Great Pyramid's core, casing, and internal chambers.",
+              "badge": "Blocks"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "5.75M tons",
+              "detail": "Approximate total weight of the monument, raised over roughly 20 to 27 years of continuous work.",
+              "badge": "Weight"
+            },
+            {
+              "label": "Khufu",
+              "detail": "The Fourth Dynasty pharaoh, known to the Greeks as Cheops, for whom the Great Pyramid was raised.",
+              "badge": "Pharaoh"
+            },
+            {
+              "label": "Grand Gallery",
+              "detail": "The 153-foot corbelled ascending hall that leads to the King's Chamber and its granite roof beams.",
+              "badge": "Interior"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/build-the-pyramids-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Build the Pyramids Building Timeline",
+          "description": "A chronological walk from Djoser's Step Pyramid at Saqqara to the three Fourth Dynasty monuments on the Giza plateau.",
+          "href": "/guide/build-the-pyramids-how-long-to-build-the-pyramids",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "About 2670 BCE: Djoser's Step Pyramid rises at Saqqara, the first pyramid, designed by the architect Imhotep as six stacked tiers."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Early 4th Dynasty: Sneferu's builders at Meidum and Dahshur work out the true smooth-sided pyramid after earlier collapses."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Circa 2550 BCE: work begins on Khufu's Great Pyramid at Giza, reaching 481.4 ft with roughly 2.3 million blocks."
+            },
+            {
+              "label": "4",
+              "detail": "20 to 27 years: the accepted construction window for the Great Pyramid, requiring about 100,000 blocks placed each year."
+            },
+            {
+              "label": "5",
+              "detail": "Circa 2520 BCE: Khafre adds the second Giza pyramid at 471 ft, sited on higher bedrock so it appears the tallest."
+            },
+            {
+              "label": "6",
+              "detail": "Circa 2490 BCE: Menkaure completes the plateau with a 218 ft pyramid finished in red Aswan granite."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/build-the-pyramids-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Build the Pyramids Workforce Guide",
+          "description": "The archaeology of the people who did the work: worker villages, rations, medical treatment, honoured burials, and the corvee system.",
+          "href": "/theories/build-the-pyramids-slaves-or-workers",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Workers",
+              "detail": "Excavations at the Giza workers' village show paid, organised labour, not the enslaved workforce of popular myth."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Rations",
+              "detail": "Crews were fed from on-site bakeries, breweries, and cattle butcheries that supplied thousands of workers daily."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Medical",
+              "detail": "Skeletons show healed fractures and even successful trepanation, care that would never be given to expendable captives."
+            },
+            {
+              "label": "Burials",
+              "detail": "Labourers were interred in honoured cemeteries beside the monuments they raised, a privilege denied to slaves."
+            },
+            {
+              "label": "Corvee",
+              "detail": "Seasonal farmers worked off their corvee tax obligation during the Akhet flood, when their fields lay underwater."
+            },
+            {
+              "label": "Crews",
+              "detail": "Workers were divided into named gangs under their own overseers, competing on quotas and recorded on papyri."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/build-the-pyramids-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Build the Pyramids Documentary Guide",
+          "description": "Documentary, video, and feature-length programmes on Giza, its builders, and the engineering debates still running today.",
+          "href": "/media",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Overview",
+              "detail": "Start with a broad documentary covering the Giza plateau, its three monuments, and the Fourth Dynasty builders."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "BBC",
+              "detail": "BBC productions trace the archaeology of the workers' town and the logistics behind the Great Pyramid."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Feature",
+              "detail": "Feature-length programmes follow the full construction sequence from quarry face to finished casing."
+            },
+            {
+              "label": "YouTube",
+              "detail": "Free video explainers break down ramp theories, sledges, and block-moving experiments in short form."
+            },
+            {
+              "label": "Kids",
+              "detail": "Kid-friendly videos and activities introduce ancient Egyptian engineering without the myth and mystery."
+            },
+            {
+              "label": "Movies",
+              "detail": "Hollywood depictions of pyramid building are entertaining but diverge sharply from the archaeological record."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Build the Pyramids Theories Ranked",
+          "description": "Competing explanations for how the pyramids were raised, ranked by how well each one holds up against the excavated evidence.",
+          "href": "/theories",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Documented labour: worker villages, bakeries, medical care, and honoured cemeteries settle who built the Giza monuments."
+            },
+            {
+              "label": "A",
+              "detail": "Ramp systems: straight, zigzag, and internal spiral ramps all leave archaeological traces and remain the leading model."
+            },
+            {
+              "label": "B",
+              "detail": "Water-assisted transport: Nile flood canals and wetted sand are well supported, but internal hydraulic lifts stay debated."
+            },
+            {
+              "label": "C",
+              "detail": "Alien construction: lost-technology claims rest on argument from incredulity and contradict every excavated tool assemblage."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Build the Pyramids Tools and Materials",
+          "description": "The Old Kingdom toolkit and the stone it worked: copper chisels, dolerite pounders, quartz abrasives, and water-swollen wedges.",
+          "href": "/construction/build-the-pyramids-tools-used-to-build-the-pyramids",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Copper chisel",
+              "detail": "Unalloyed copper and arsenic-bronze chisels cut Tura limestone, re-forged on site as the edges dulled.",
+              "badge": "Cutting"
+            },
+            {
+              "label": "Dolerite ball",
+              "detail": "Hard dolerite pounders crushed the Aswan granite that metal tools could not touch.",
+              "badge": "Granite"
+            },
+            {
+              "label": "Quartz sand",
+              "detail": "Quartz slurry let toothless copper saws grind through granite for sarcophagi and lintels.",
+              "badge": "Abrasive"
+            },
+            {
+              "label": "Wooden wedge",
+              "detail": "Dry acacia wedges driven into limestone cracks and soaked with water split blocks free from the bedrock.",
+              "badge": "Splitting"
+            },
+            {
+              "label": "Halfa rope",
+              "detail": "Braided halfa grass and papyrus ropes, rated 2,000 to 8,000 lbs, harnessed the hauling gangs.",
+              "badge": "Hauling"
+            },
+            {
+              "label": "Cedar sledge",
+              "detail": "Lebanese cedar and acacia sledges spread loads of up to 60 tons across wide wooden runners.",
+              "badge": "Transport"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Build the Pyramids.",
+      "title": "Build the Pyramids FAQ",
+      "description": "Common questions about how the pyramids were built, answered from the archaeological record.",
       "items": [
         {
-          "question": "What is Build the Pyramids?",
-          "answer": "Build the Pyramids is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "How long did it take to build the pyramids at Giza?",
+          "answer": "Administrative documents and royal annals place the Great Pyramid at roughly 20 to 27 years. If Khufu's monument was finished in 23 years, crews quarried, moved, and set about 100,000 blocks every year to build the pyramids on that schedule."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Who built the pyramids?",
+          "answer": "The builders were Egyptian. Excavations at the Giza workers' village uncovered barracks, bakeries, butcheries, and medical quarters, and the workers' cemeteries hold healed fractures and honoured burials. To build the pyramids, Egypt mobilised 4,000 to 5,000 permanent specialists plus 15,000 to 20,000 seasonal labourers during the Nile flood."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Were the pyramids built by slaves?",
+          "answer": "The evidence does not support it. Skeletal remains show treated injuries and even successful brain surgery, care never given to expendable captives, and labourers were buried in cemeteries beside the monuments they raised. The crews who helped build the pyramids worked off a corvee tax obligation during the flood season."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What tools were used to build the pyramids?",
+          "answer": "Old Kingdom builders had no iron. To build the pyramids they used unalloyed copper and arsenic-bronze chisels for limestone, dolerite pounding balls and quartz sand slurry for Aswan granite, and dry wooden wedges swollen with water to split blocks from the bedrock."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "What stone was used to build the pyramids?",
+          "answer": "Most of the bulk came from the plateau itself: rough nummulitic limestone averaging about 2.5 tons per block formed the core. Fine white Tura limestone, quarried across the Nile, was fitted as the outer casing, and pink Aswan granite from over 500 miles upstream faced the lower courses and roofed the King's Chamber. Every material used to build the pyramids moved by sledge, rope, and river barge."
+        },
+        {
+          "question": "Why were the pyramids built?",
+          "answer": "They were royal tombs. In Old Kingdom belief the pharaoh was Horus incarnate on earth, destined to merge with Osiris after death, and the sloped faces worked as a stairway carrying his ka up to the sun god Ra. To build the pyramids was therefore both a burial project and a statement of cosmic order, or maat."
         }
       ]
     },
     "finalCta": {
-      "title": "Ready to Build Your First Pyramid?",
-      "description": "From carrying your first block to finishing the Great Pyramid our community wiki has you covered with free, up-to-date guides.",
+      "title": "Start With the Build the Pyramids Beginner Guide",
+      "description": "Begin with the beginner guide, then work through construction methods, materials, the workforce, and the timeline that produced the Giza plateau.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "Play Build the Pyramid"
     }
   },
   "bosses": {},
