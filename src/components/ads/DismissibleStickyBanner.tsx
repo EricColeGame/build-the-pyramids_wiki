@@ -10,7 +10,7 @@ import { AdBanner } from "./AdBanner";
  * frame appears beside the banner on desktop. Dismissable via the ✕ button
  * for the current page view.
  */
-export function DismissibleStickyBanner() {
+export function DismissibleStickyBanner({ closeLabel }: { closeLabel: string }) {
   const [dismissed, setDismissed] = useState(false);
   if (dismissed) return null;
 
@@ -20,7 +20,7 @@ export function DismissibleStickyBanner() {
         <AdBanner size="320x50" />
         <button
           type="button"
-          aria-label="Close ad"
+          aria-label={closeLabel}
           onClick={() => setDismissed(true)}
           className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full border bg-background/95 p-1 text-muted-foreground hover:text-foreground"
         >

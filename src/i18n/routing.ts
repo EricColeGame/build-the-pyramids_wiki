@@ -15,3 +15,11 @@ export const routing = defineRouting({
 });
 
 export type Locale = (typeof routing.locales)[number];
+
+/**
+ * 生成 hreflang alternates 映射（如 "/about" → { en: "/en/about", es: "/es/about", ... }）。
+ * 所有带 generateMetadata 的页面共用，避免各页面各写一份、漏掉某个语言。
+ */
+export function languageAlternates(pathname: string) {
+  return Object.fromEntries(routing.locales.map((locale) => [locale, `/${locale}${pathname}`]));
+}

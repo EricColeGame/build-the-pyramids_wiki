@@ -1,11 +1,32 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { siteConfig } from "@/config/site";
 import { LegalPage } from "@/components/legal-page";
+import { languageAlternates, type Locale } from "@/i18n/routing";
 
-export default function TermsOfServicePage() {
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://build-the-pyramids.wiki";
+const PATHNAME = "/terms-of-service";
+const NAMESPACE = "legal.termsOfService";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: NAMESPACE });
+  const title = `${t("title")} | ${siteConfig.name}`;
+  const description = t("description");
+  return {
+    title,
+    description,
+    alternates: { canonical: `/${locale}${PATHNAME}`, languages: languageAlternates(PATHNAME) },
+    openGraph: { title, description, url: `${siteUrl}/${locale}${PATHNAME}` },
+  };
+}
+
+export default async function TermsOfServicePage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: NAMESPACE });
   return (
-    <LegalPage title="Terms of Service">
-      <p>This site is an independent fan-made guide hub. Content is provided for informational and entertainment purposes only.</p>
-      <p>Game systems, codes, drops, and update details may change without notice. Always verify important information in-game or through official channels.</p>
-      <p>By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official Janitors Studios or Roblox property.</p>
+    <LegalPage title={t("title")}>
+      {(t.raw("paragraphs") as string[]).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </LegalPage>
   );
 }

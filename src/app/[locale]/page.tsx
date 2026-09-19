@@ -58,7 +58,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
     <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
       <JsonLd data={webSite} />
       <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_300px]">
-        <HomePageClient home={messages.home} locale={locale} articles={allArticles} recentArticles={recentArticles} />
+        <HomePageClient home={messages.home} locale={locale} articles={allArticles} recentArticles={recentArticles} closeLabel={messages.shared.close} closeAdLabel={messages.shared.closeAd} />
         <WikiSidebar locale={locale} navGroups={navGroups} />
       </div>
     </main>

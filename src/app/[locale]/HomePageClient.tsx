@@ -17,13 +17,13 @@ type Home = typeof en.home;
 const icons: LucideIcon[] = [BookOpen, Shield, Compass, Boxes, Flame, Code2, Swords, MapIcon, Users, Trophy, Skull, Zap, CircleHelp, ScrollText];
 
 
-export default function HomePageClient({ home, locale, articles, recentArticles }: { home: Home; locale: string; articles: ContentItem[]; recentArticles: ContentItem[] }) {
+export default function HomePageClient({ home, locale, articles, recentArticles, closeLabel, closeAdLabel }: { home: Home; locale: string; articles: ContentItem[]; recentArticles: ContentItem[]; closeLabel: string; closeAdLabel: string }) {
   const YOUTUBE_VIDEO_ID = siteConfig.heroVideoId || "";
 
   return (
     <div className="min-w-0 space-y-16">
       {/* Sticky 320x50 banner — top revenue slot, dismissable (course §4.3/4.4) */}
-      <DismissibleStickyBanner />
+      <DismissibleStickyBanner closeLabel={closeAdLabel} />
 
       {/* Hero Section */}
       <section className="text-center">
@@ -43,7 +43,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
       {/* Promo video — must sit immediately after the hero, not further down the page */}
       {YOUTUBE_VIDEO_ID && (
         <section className="mx-auto w-full max-w-4xl">
-          <TrailerButton videoId={YOUTUBE_VIDEO_ID} />
+          <TrailerButton videoId={YOUTUBE_VIDEO_ID} closeLabel={closeLabel} />
         </section>
       )}
 

@@ -60,7 +60,7 @@ export function Breadcrumbs({ items }: { items: { label: string; href?: string }
 export async function WikiSidebar({ locale, navGroups, currentPath }: { locale: string; navGroups: NavGroup[]; currentPath?: string }) {
   const t = await getTranslations({ locale, namespace: "shared" });
   const isActive = (href: string) => currentPath === href;
-  return <aside className="space-y-6 lg:sticky lg:top-24 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pr-1"><section className="rounded-2xl border border-border bg-card/60 p-5 shadow-sm"><h3 className="mb-4 text-xs font-bold uppercase tracking-[0.22em] text-muted-foreground">{t("wikiNavigation")}</h3><div className="space-y-4">{navGroups.map((group) => <CollapsibleNavGroup key={group.slug} title={group.title} icon={<span className="grid h-4 w-4 place-items-center rounded text-[10px] font-bold text-[hsl(var(--nav-theme))]">{group.title[0]}</span>} count={group.count} currentPath={currentPath}><ul className="space-y-1">{group.links.map((link) => <li key={link.href}><Link href={localizeHref(link.href, locale)} className={`flex items-center gap-2 rounded-lg px-2 py-1.5 text-sm transition-colors ${isActive(link.href) ? "bg-[hsl(var(--nav-theme)/0.15)] font-semibold text-[hsl(var(--nav-theme))]" : "text-muted-foreground hover:bg-muted hover:text-foreground"}`}><span className="truncate">{link.label}</span>{link.badge && <Badge variant="secondary" className="ml-auto h-5 border-border px-1.5 text-[10px]">{link.badge}</Badge>}</Link></li>)}</ul></CollapsibleNavGroup>)}</div></section><section className="rounded-2xl border border-border bg-card/60 p-5"><h3 className="mb-3 text-sm font-bold text-foreground">{t("activeCodes")}</h3><div className="space-y-3 text-sm"><div className="rounded-xl bg-muted p-3"><code className="font-bold text-foreground">COMING-SOON</code><p className="mt-1 text-muted-foreground">No active codes currently available</p></div><div className="rounded-xl bg-muted p-3"><code className="font-bold text-foreground">STAY-TUNED</code><p className="mt-1 text-muted-foreground">Check back soon for new codes</p></div><Link href={localizeHref("/codes", locale)} className="inline-flex items-center gap-1 text-sm font-semibold text-[hsl(var(--nav-theme))]">{t("viewAllCodes")} <ChevronRight className="h-4 w-4" /></Link></div></section></aside>;
+  return <aside className="space-y-6 lg:sticky lg:top-24 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pr-1"><section className="rounded-2xl border border-border bg-card/60 p-5 shadow-sm"><h3 className="mb-4 text-xs font-bold uppercase tracking-[0.22em] text-muted-foreground">{t("wikiNavigation")}</h3><div className="space-y-4">{navGroups.map((group) => <CollapsibleNavGroup key={group.slug} title={group.title} icon={<span className="grid h-4 w-4 place-items-center rounded text-[10px] font-bold text-[hsl(var(--nav-theme))]">{group.title[0]}</span>} count={group.count} currentPath={currentPath}><ul className="space-y-1">{group.links.map((link) => <li key={link.href}><Link href={localizeHref(link.href, locale)} className={`flex items-center gap-2 rounded-lg px-2 py-1.5 text-sm transition-colors ${isActive(link.href) ? "bg-[hsl(var(--nav-theme)/0.15)] font-semibold text-[hsl(var(--nav-theme))]" : "text-muted-foreground hover:bg-muted hover:text-foreground"}`}><span className="truncate">{link.label}</span>{link.badge && <Badge variant="secondary" className="ml-auto h-5 border-border px-1.5 text-[10px]">{link.badge}</Badge>}</Link></li>)}</ul></CollapsibleNavGroup>)}</div></section></aside>;
 }
 
 export async function SiteFooter({ locale }: { locale: string }) {
@@ -107,24 +107,24 @@ export function TrailerCard({ videoId }: { videoId: string }) {
   );
 }
 
-export function TrailerDialog({ videoId }: { videoId: string }) {
+export function TrailerDialog({ videoId, closeLabel }: { videoId: string; closeLabel: string }) {
   return (
     <dialog id="trailer-dialog" className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-200" onClick={(e) => { const d = document.getElementById("trailer-dialog") as HTMLDialogElement; if (e.target === d) { d.close(); d.classList.add("opacity-0", "pointer-events-none"); d.classList.remove("opacity-100", "pointer-events-auto"); } }}>
       <div className="relative w-full max-w-4xl mx-4">
         <iframe id="trailer-iframe" className="aspect-video w-full rounded-xl" allow="autoplay; encrypted-media" allowFullScreen />
-        <button className="absolute -top-10 right-0 text-white/80 hover:text-white text-sm font-medium" onClick={() => { const d = document.getElementById("trailer-dialog") as HTMLDialogElement; d.close(); d.classList.add("opacity-0", "pointer-events-none"); d.classList.remove("opacity-100", "pointer-events-auto"); }}>✕ Close</button>
+        <button className="absolute -top-10 right-0 text-white/80 hover:text-white text-sm font-medium" onClick={() => { const d = document.getElementById("trailer-dialog") as HTMLDialogElement; d.close(); d.classList.add("opacity-0", "pointer-events-none"); d.classList.remove("opacity-100", "pointer-events-auto"); }}>✕ {closeLabel}</button>
       </div>
     </dialog>
   );
 }
 
-export function TrailerButton({ videoId }: { videoId: string }) {
+export function TrailerButton({ videoId, closeLabel }: { videoId: string; closeLabel: string }) {
   return (
     <>
       <button type="button" className="w-full" aria-haspopup="dialog" onClick={() => { const d = document.getElementById("trailer-dialog") as HTMLDialogElement; const f = document.getElementById("trailer-iframe") as HTMLIFrameElement; f.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`; d.showModal(); d.classList.remove("opacity-0", "pointer-events-none"); d.classList.add("opacity-100", "pointer-events-auto"); }}>
         <TrailerCard videoId={videoId} />
       </button>
-      <TrailerDialog videoId={videoId} />
+      <TrailerDialog videoId={videoId} closeLabel={closeLabel} />
     </>
   );
 }

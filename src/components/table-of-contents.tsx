@@ -13,7 +13,7 @@ interface Heading {
  * 移动端：标题和正文之间显示可折叠 TOC 面板
  * 桌面端：隐藏（侧边栏有单独的 heading 链接）
  */
-export function MobileTOC({ headings, label }: { headings: Heading[]; label: string }) {
+export function MobileTOC({ headings, label, closeLabel }: { headings: Heading[]; label: string; closeLabel: string }) {
   const [open, setOpen] = useState(true);
 
   if (headings.length === 0) return null;
@@ -29,7 +29,7 @@ export function MobileTOC({ headings, label }: { headings: Heading[]; label: str
           {label}
         </button>
         {open && (
-          <button onClick={() => setOpen(false)} className="text-muted-foreground hover:text-foreground" aria-label="Close TOC">
+          <button onClick={() => setOpen(false)} className="text-muted-foreground hover:text-foreground" aria-label={closeLabel}>
             <X className="h-4 w-4" />
           </button>
         )}

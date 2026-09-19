@@ -1,1 +1,579 @@
-{}
+{
+  "site": {
+    "name": "Build the Pyramids Wiki",
+    "shortName": "Build the Pyramids",
+    "tagline": "Komplette Guides, Baumethoden und Geschichte",
+    "description": "Wie wurden die Pyramiden gebaut? Entdecke die Baumethoden von Gizeh, die Materialien aus Kalkstein und Granit, die Arbeitskräfte, die Zeitschienen und die Theorien dahinter.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
+  },
+  "nav": {
+    "home": "Startseite",
+    "guide": "Ratgeber",
+    "construction": "Bauweise",
+    "theories": "Theorien",
+    "history": "Geschichte",
+    "media": "Medien",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln"
+  },
+  "home": {
+    "meta": {
+      "title": "Build the Pyramids Wiki: Bauweise und Geschichte",
+      "description": "Wie wurden die Pyramiden gebaut? Guides zu den Baumethoden von Gizeh, den Materialien aus Kalkstein und Granit, den Kupferwerkzeugen, den Arbeitskräften, den Zeitschienen und den Theorien dahinter."
+    },
+    "hero": {
+      "eyebrow": "Antike Ingenieurskunst erklärt",
+      "title": "Build the Pyramids Wiki",
+      "description": "Wie wurden die Pyramiden gebaut? Dieses Wiki arbeitet die Belege durch: den Abbau von 2,3 Millionen Kalksteinblöcken, den Transport von Assuan-Granit über 800 km den Nil hinab, das Ziehen von Schlitten über angefeuchteten Sand und das Hochziehen von Erddämmen über 120 Meter hinaus.",
+      "stats": [
+        "4. Dynastie",
+        "146,6 m höchste",
+        "2,3 Mio. Blöcke",
+        "~20.000 Arbeiter an der Spitze"
+      ],
+      "primaryCta": "Einsteiger-Guide",
+      "secondaryCta": "Build the Pyramid spielen",
+      "tertiaryCta": "Wie die Pyramiden gebaut wurden",
+      "videoLabel": "Baudokumentation"
+    },
+    "updates": {
+      "title": "Neueste Artikel",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Dein Einstieg in Build the Pyramids",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Guide",
+          "description": "Beginne mit der 4. Dynastie und den drei Monumenten von Gizeh: wer sie in Auftrag gab, wann sie errichtet wurden und wofür sie dienten."
+        },
+        {
+          "number": "2",
+          "title": "Baumethoden",
+          "description": "Sieh, wie 2,3 Millionen Kalksteinblöcke abgebaut, über angefeuchteten Sand gezogen, auf Flussschiffen transportiert und über Erddämme gehoben wurden."
+        },
+        {
+          "number": "3",
+          "title": "Belege zu den Arbeitskräften",
+          "description": "Folge der Archäologie, die den Sklavenmythos beendete: Arbeitersiedlungen, Bäckereien, medizinische Versorgung und ehrenvolle Bestattungen neben den Monumenten."
+        },
+        {
+          "number": "4",
+          "title": "Theorien im Vergleich",
+          "description": "Wäge die konkurrierenden Erklärungen ab, von nilgespeisten hydraulischen Hebern bis zur Alien-Intervention, gemessen am Ausgrabungsbefund."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Meistgelesene Guides",
+      "quickLinks": [
+        "Plateau von Gizeh",
+        "Große Pyramide",
+        "Arbeitskräfte",
+        "Theorien"
+      ],
+      "cards": [
+        {
+          "badge": "Hier starten",
+          "title": "Einsteiger-Guide",
+          "description": "Der vollständige Einstieg durch die Monumente von Gizeh, die Menschen, die sie bauten, und die Materialien, mit denen sie arbeiteten.",
+          "href": "/guide"
+        },
+        {
+          "badge": "Kerninhalt",
+          "title": "Wie die Pyramiden gebaut wurden",
+          "description": "Das Arbeitsmodell: Steinbrucharbeit, Schlitten, angefeuchteter Sand, Flussschiffe und die Rampensysteme, die den Stein emporhoben.",
+          "href": "/guide/build-the-pyramids-how-were-the-pyramids-built"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Wer die Pyramiden baute",
+          "description": "Die Handwerker, Vermesser und Saisonbauern hinter den Monumenten und die Belege, die sie identifizieren.",
+          "href": "/guide/build-the-pyramids-who-built-the-pyramids"
+        },
+        {
+          "badge": "Kerninhalt",
+          "title": "Pyramiden von Gizeh",
+          "description": "Cheops, Chephren und Mykerinos im Vergleich nach Höhe, Basislänge, Blockzahl und Verkleidungsmaterial.",
+          "href": "/history/build-the-pyramids-pyramids-of-giza"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Werkzeuge zum Bau der Pyramiden",
+          "description": "Kupfermeißel, Doleritklopfer, Quarzschleifmittel und die Holzkeile, die den Kalkstein vom Fels lösten.",
+          "href": "/construction/build-the-pyramids-tools-used-to-build-the-pyramids"
+        },
+        {
+          "badge": "Kerninhalt",
+          "title": "Materialien in Gizeh",
+          "description": "Lokaler nummulitischer Kalkstein, feine Tura-Verkleidung und der rosa Assuan-Granit für die Königskammer.",
+          "href": "/construction/build-the-pyramids-materials-used-to-build-the-pyramids-of-giza"
+        },
+        {
+          "badge": "Umstritten",
+          "title": "Bauten Sklaven die Pyramiden?",
+          "description": "Die Archäologie der Arbeitersiedlung, Rationen, medizinische Behandlung und ehrenvolle Friedhöfe in Gizeh.",
+          "href": "/theories/build-the-pyramids-did-slaves-build-the-pyramids"
+        },
+        {
+          "badge": "Umstritten",
+          "title": "Bauten Außerirdische die Pyramiden?",
+          "description": "Warum das Argument der verlorenen Technologie an den ausgegrabenen Werkzeugsätzen aus Kupfer, Dolerit, Seil und Schlitten scheitert.",
+          "href": "/theories/build-the-pyramids-did-aliens-build-the-pyramids"
+        },
+        {
+          "badge": "Ansehen",
+          "title": "Dokumentationen über die Pyramiden",
+          "description": "Dokumentationen, Videos und Langformate über Gizeh, seine Erbauer und die Ingenieurdebatten.",
+          "href": "/media/build-the-pyramids-documentary"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Build the Pyramids?",
+      "paragraphs": [
+        "Build the Pyramids behandelt die Ingenieurskunst hinter den Monumenten von Gizeh, den drei Gräbern der 4. Dynastie, die für Cheops, Chephren und Mykerinos zwischen etwa 2550 und 2490 v. Chr. errichtet wurden. Jeder Guide hier arbeitet mit ausgegrabenen Belegen: Steinbruchmarken, Werkzeugensembles, Arbeitersiedlungen, Verwaltungspapyri und den Monumenten selbst.",
+        "Über 32 Artikel kannst du die gesamte Baukette verfolgen, vom Kalksteinabbau auf dem Plateau und dem Versand von Granit 800 km den Nil hinab bis zum Ziehen der Blöcke über angefeuchteten Sand und ihrem Aufstieg über Erddämme mehr als 120 Meter hoch. Der Theorienteil wägt jede konkurrierende Erklärung — hydraulische Heber, verlorene Technologie und Sklavenarbeit — gegen das ab, was der archäologische Befund tatsächlich zeigt."
+      ],
+      "stats": [
+        {
+          "label": "Monumente",
+          "value": "3 Pyramiden von Gizeh"
+        },
+        {
+          "label": "Höchste Höhe",
+          "value": "146,6 m"
+        },
+        {
+          "label": "Kernblöcke",
+          "value": "~2,3 Millionen"
+        },
+        {
+          "label": "Bauzeit",
+          "value": "20-27 Jahre"
+        },
+        {
+          "label": "Arbeitskräfte an der Spitze",
+          "value": "~20.000"
+        },
+        {
+          "label": "Granittransport",
+          "value": "800 km"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Das Build the Pyramids Wiki entdecken",
+      "description": "Acht geführte Abschnitte darüber, wie die Pyramiden gebaut wurden: Baumethoden, Materialien, Werkzeuge, die Arbeitskräfte, die Bauzeitleiste und die bis heute umstrittenen Theorien.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Einsteiger-Guide zu Build the Pyramids",
+          "description": "Ein Einstiegspfad durch die Monumente von Gizeh: wer sie in Auftrag gab, wann sie errichtet wurden, wofür sie dienten und wie die Bautrupps organisiert waren.",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Beginne mit dem Umfeld: Cheops, Chephren und Mykerinos errichteten die Pyramiden von Gizeh während der 4. Dynastie Ägyptens, zwischen etwa 2550 und 2490 v. Chr."
+            },
+            {
+              "label": "2",
+              "detail": "Erfahre, wofür eine Pyramide diente: ein Königsgrab und eine Sonnentreppe, die den Ka des Pharaos zum Sonnengott Re emporführte."
+            },
+            {
+              "label": "3",
+              "detail": "Lerne die drei Monumente kennen: die Große Pyramide mit 146,6 m, die des Chephren mit 143,5 m und die des Mykerinos mit 66,4 m."
+            },
+            {
+              "label": "4",
+              "detail": "Sieh, wie die Arbeitskräfte organisiert waren: 4.000 bis 5.000 ständige Spezialisten, unterstützt von 15.000 bis 20.000 Saisonarbeitern."
+            },
+            {
+              "label": "5",
+              "detail": "Verfolge die Materialien vom Steinbruch zum Plateau: lokaler Kalksteinkern, feine Tura-Verkleidung und Assuan-Granit aus über 800 km stromaufwärts."
+            },
+            {
+              "label": "6",
+              "detail": "Schließe mit der Ingenieurskunst ab: Kupfermeißel, Doleritklopfer, wassergeschmierte Schlitten und Erddämme, die über 120 m hinausstiegen."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Baumethoden von Build the Pyramids",
+          "description": "Das anerkannte Baumodell: Steinbrucharbeit, Schlitten auf angefeuchtetem Sand, Flussschiffe, Erddämme und die Vermessung, die den wahren Norden fixierte.",
+          "href": "/construction",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Steinbruch",
+              "detail": "Der Tagebau im Felsbett von Gizeh lieferte rohe Kernblöcke von durchschnittlich etwa 2,5 Tonnen."
+            },
+            {
+              "label": "Rampen",
+              "detail": "Gerade Rampen dienten den unteren Lagen, während Zickzack- und innere Spiralrampen den Stein in die oberen Stufen trugen."
+            },
+            {
+              "label": "Schlitten",
+              "detail": "Holzschlitten auf angefeuchtetem Sand senkten die Gleitreibung um rund 50 Prozent, sodass kleine Trupps 60-Tonnen-Blöcke ziehen konnten."
+            },
+            {
+              "label": "Schiffe",
+              "detail": "Frachtschiffe mit Rumpf aus Maulbeerfeigenbaum von 100 bis 300 Tonnen transportierten Granit und Tura-Kalkstein über den überfluteten Nil."
+            },
+            {
+              "label": "Verkleidung",
+              "detail": "Feiner weißer Tura-Kalkstein wurde als Außenhaut eingepasst und gab der fertigen Pyramide ihre glatte, spiegelnde Oberfläche."
+            },
+            {
+              "label": "Ausrichtung",
+              "detail": "Die Baumeister fixierten den wahren Norden mit schattenwerfenden Gnomons und Beobachtungen der zirkumpolaren Sterne."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Fakten zur Großen Pyramide",
+          "description": "Die wichtigsten Zahlen zum Monument des Cheops, von der ursprünglichen Höhe und Basislänge bis zur Blockzahl und den inneren Kammern.",
+          "href": "/history/build-the-pyramids-great-pyramid",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "146,6 m",
+              "detail": "Ursprüngliche Höhe der Großen Pyramide des Cheops, mehr als 3.800 Jahre lang das höchste von Menschen geschaffene Bauwerk der Erde.",
+              "badge": "Höhe"
+            },
+            {
+              "label": "230 m",
+              "detail": "Länge jeder Basislinie, auf einen Bruchteil eines Grades genau zum wahren Norden ausgerichtet.",
+              "badge": "Basis"
+            },
+            {
+              "label": "2,3 Mio.",
+              "detail": "Geschätzte Zahl der Steinblöcke in Kern, Verkleidung und inneren Kammern der Großen Pyramide.",
+              "badge": "Blöcke"
+            },
+            {
+              "label": "5,75 Mio. t",
+              "detail": "Ungefähres Gesamtgewicht des Monuments, errichtet in rund 20 bis 27 Jahren ununterbrochener Arbeit.",
+              "badge": "Gewicht"
+            },
+            {
+              "label": "Cheops",
+              "detail": "Der Pharao der 4. Dynastie, für den die Große Pyramide errichtet wurde; die Griechen nannten ihn Cheops.",
+              "badge": "Pharao"
+            },
+            {
+              "label": "Große Galerie",
+              "detail": "Der 46,6 m lange, kragsteinartig aufsteigende Gang zur Königskammer und ihren Granitdeckenbalken.",
+              "badge": "Innenraum"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Bauzeitleiste",
+          "description": "Ein chronologischer Gang von Djosers Stufenpyramide in Sakkara bis zu den drei Monumenten der 4. Dynastie auf dem Plateau von Gizeh.",
+          "href": "/guide/build-the-pyramids-how-long-to-build-the-pyramids",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Um 2670 v. Chr.: In Sakkara entsteht Djosers Stufenpyramide, die erste Pyramide, vom Architekten Imhotep als sechs gestapelte Stufen entworfen."
+            },
+            {
+              "label": "2",
+              "detail": "Frühe 4. Dynastie: Sneferus Baumeister in Meidum und Dahschur entwickeln nach früheren Einstürzen die echte glattseitige Pyramide."
+            },
+            {
+              "label": "3",
+              "detail": "Um 2550 v. Chr.: Die Arbeiten an der Großen Pyramide des Cheops in Gizeh beginnen und erreichen 146,6 m mit rund 2,3 Millionen Blöcken."
+            },
+            {
+              "label": "4",
+              "detail": "20 bis 27 Jahre: das anerkannte Bauzeitfenster für die Große Pyramide, das etwa 100.000 jährlich versetzte Blöcke erforderte."
+            },
+            {
+              "label": "5",
+              "detail": "Um 2520 v. Chr.: Chephren fügt die zweite Pyramide von Gizeh mit 143,5 m hinzu, auf höherem Fels gegründet, damit sie die höchste zu sein scheint."
+            },
+            {
+              "label": "6",
+              "detail": "Um 2490 v. Chr.: Mykerinos vollendet das Plateau mit einer 66,4 m hohen Pyramide aus rotem Assuan-Granit."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guide zu den Arbeitskräften",
+          "description": "Die Archäologie der Menschen, die die Arbeit taten: Arbeitersiedlungen, Rationen, medizinische Versorgung, ehrenvolle Bestattungen und das Frondienstsystem.",
+          "href": "/theories/build-the-pyramids-slaves-or-workers",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Arbeiter",
+              "detail": "Ausgrabungen in der Arbeitersiedlung von Gizeh zeigen bezahlte, organisierte Arbeit — nicht die versklavte Belegschaft des Volksmythos."
+            },
+            {
+              "label": "Rationen",
+              "detail": "Die Trupps wurden aus Bäckereien, Brauereien und Schlachtereien vor Ort versorgt, die täglich Tausende Arbeiter belieferten."
+            },
+            {
+              "label": "Medizin",
+              "detail": "Skelette zeigen verheilte Brüche und sogar erfolgreiche Trepanationen — eine Versorgung, die entbehrlichen Gefangenen nie zuteil geworden wäre."
+            },
+            {
+              "label": "Bestattungen",
+              "detail": "Die Arbeiter wurden in Ehrenfriedhöfen neben den von ihnen errichteten Monumenten beigesetzt, ein Sklaven verwehrtes Privileg."
+            },
+            {
+              "label": "Frondienst",
+              "detail": "Saisonbauern arbeiteten ihre Frondienst-Steuerschuld während der Akhet-Überflutung ab, wenn ihre Felder unter Wasser lagen."
+            },
+            {
+              "label": "Trupps",
+              "detail": "Die Arbeiter waren in benannte Trupps unter eigenen Vorarbeitern gegliedert, die um Sollzahlen wetteiferten und auf Papyri verzeichnet wurden."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Dokumentations-Guide",
+          "description": "Dokumentationen, Videos und Langformate über Gizeh, seine Erbauer und die bis heute laufenden Ingenieurdebatten.",
+          "href": "/media",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Überblick",
+              "detail": "Beginne mit einer breiten Dokumentation über das Plateau von Gizeh, seine drei Monumente und die Baumeister der 4. Dynastie."
+            },
+            {
+              "label": "BBC",
+              "detail": "BBC-Produktionen verfolgen die Archäologie der Arbeitersiedlung und die Logistik hinter der Großen Pyramide."
+            },
+            {
+              "label": "Langformat",
+              "detail": "Langformatige Sendungen folgen der gesamten Baureihenfolge vom Steinbruch bis zur fertigen Verkleidung."
+            },
+            {
+              "label": "YouTube",
+              "detail": "Kostenlose Videoerklärungen zerlegen Rampentheorien, Schlitten und Blockbewegungsexperimente in Kurzform."
+            },
+            {
+              "label": "Für Kinder",
+              "detail": "Kindgerechte Videos und Aktivitäten führen in die Ingenieurskunst des alten Ägypten ein — ohne Mythos und Mystik."
+            },
+            {
+              "label": "Spielfilme",
+              "detail": "Hollywoods Darstellungen des Pyramidenbaus sind unterhaltsam, weichen aber stark vom archäologischen Befund ab."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Theorien im Vergleich",
+          "description": "Konkurrierende Erklärungen, wie die Pyramiden errichtet wurden, geordnet danach, wie gut sie dem Ausgrabungsbefund standhalten.",
+          "href": "/theories",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Dokumentierte Arbeit: Arbeitersiedlungen, Bäckereien, medizinische Versorgung und Ehrenfriedhöfe klären, wer die Monumente von Gizeh baute."
+            },
+            {
+              "label": "A",
+              "detail": "Rampensysteme: gerade, zickzackförmige und innere Spiralrampen hinterlassen archäologische Spuren und bleiben das führende Modell."
+            },
+            {
+              "label": "B",
+              "detail": "Wasserunterstützter Transport: Nilflutkanäle und angefeuchteter Sand sind gut belegt, innere hydraulische Heber bleiben umstritten."
+            },
+            {
+              "label": "C",
+              "detail": "Alien-Bau: Behauptungen verlorener Technologie stützen sich auf Unglauben und widersprechen jedem ausgegrabenen Werkzeugensemble."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Werkzeuge und Materialien",
+          "description": "Das Werkzeug des Alten Reiches und der Stein, den es bearbeitete: Kupfermeißel, Doleritklopfer, Quarzschleifmittel und wassergequollene Keile.",
+          "href": "/construction/build-the-pyramids-tools-used-to-build-the-pyramids",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Kupfermeißel",
+              "detail": "Meißel aus unlegiertem Kupfer und Arsenbronze schnitten Tura-Kalkstein und wurden auf der Baustelle nachgeschmiedet, wenn die Schneiden stumpf wurden.",
+              "badge": "Schneiden"
+            },
+            {
+              "label": "Doleritkugel",
+              "detail": "Harte Doleritklopfer zermalmten den Assuan-Granit, den Metallwerkzeuge nicht bearbeiten konnten.",
+              "badge": "Granit"
+            },
+            {
+              "label": "Quarzsand",
+              "detail": "Quarzschlamm ließ zahnlose Kupfersägen durch Granit für Sarkophage und Sturzsteine dringen.",
+              "badge": "Schleifmittel"
+            },
+            {
+              "label": "Holzkeil",
+              "detail": "Trockene Akazienkeile, in Kalksteinrisse getrieben und mit Wasser getränkt, lösten Blöcke aus dem Felsbett.",
+              "badge": "Spalten"
+            },
+            {
+              "label": "Halfa-Seil",
+              "detail": "Geflochtene Seile aus Halfagras und Papyrus mit 900 bis 3.600 kg Tragkraft spannten die Ziehtrupps ein.",
+              "badge": "Ziehen"
+            },
+            {
+              "label": "Zedernschlitten",
+              "detail": "Schlitten aus Libanon-Zeder und Akazie verteilten Lasten bis 60 Tonnen auf breiten Holzkufen.",
+              "badge": "Transport"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ zu Build the Pyramids",
+      "description": "Häufige Fragen dazu, wie die Pyramiden gebaut wurden, beantwortet aus dem archäologischen Befund.",
+      "items": [
+        {
+          "question": "Wie lange dauerte der Bau der Pyramiden von Gizeh?",
+          "answer": "Verwaltungsdokumente und Königsannalen datieren die Große Pyramide auf rund 20 bis 27 Jahre. Wurde das Monument des Cheops in 23 Jahren fertiggestellt, brachen, bewegten und versetzten die Trupps pro Jahr etwa 100.000 Blöcke, um die Pyramiden in diesem Zeitplan zu bauen."
+        },
+        {
+          "question": "Wer baute die Pyramiden?",
+          "answer": "Die Erbauer waren Ägypter. Ausgrabungen in der Arbeitersiedlung von Gizeh legten Baracken, Bäckereien, Schlachtereien und medizinische Bereiche frei, und die Arbeiterfriedhöfe enthalten verheilte Brüche und ehrenvolle Bestattungen. Um die Pyramiden zu bauen, mobilisierte Ägypten 4.000 bis 5.000 ständige Spezialisten plus 15.000 bis 20.000 Saisonarbeiter während der Nilschwemme."
+        },
+        {
+          "question": "Wurden die Pyramiden von Sklaven gebaut?",
+          "answer": "Die Belege stützen das nicht. Skelettfunde zeigen behandelte Verletzungen und sogar erfolgreiche Hirnoperationen — eine Versorgung, die entbehrlichen Gefangenen nie zuteil wurde — und die Arbeiter wurden auf Friedhöfen neben den von ihnen errichteten Monumenten bestattet. Die Trupps, die beim Bau der Pyramiden halfen, arbeiteten während der Flutsaison eine Frondienst-Steuerschuld ab."
+        },
+        {
+          "question": "Welche Werkzeuge wurden zum Bau der Pyramiden verwendet?",
+          "answer": "Die Baumeister des Alten Reiches hatten kein Eisen. Um die Pyramiden zu bauen, nutzten sie Meißel aus unlegiertem Kupfer und Arsenbronze für Kalkstein, Doleritklopfer und Quarzsandschlamm für Assuan-Granit sowie trockene, mit Wasser gequollene Holzkeile, um Blöcke aus dem Felsbett zu lösen."
+        },
+        {
+          "question": "Welcher Stein wurde zum Bau der Pyramiden verwendet?",
+          "answer": "Der Großteil des Volumens kam vom Plateau selbst: roher nummulitischer Kalkstein mit durchschnittlich etwa 2,5 Tonnen pro Block bildete den Kern. Feiner weißer Tura-Kalkstein, jenseits des Nils gebrochen, wurde als Außenverkleidung eingepasst, und rosa Assuan-Granit aus über 800 km stromaufwärts verkleidete die unteren Lagen und überdeckte die Königskammer. Jedes zum Bau der Pyramiden verwendete Material bewegte sich auf Schlitten, an Seilen und auf Flussschiffen."
+        },
+        {
+          "question": "Warum wurden die Pyramiden gebaut?",
+          "answer": "Sie waren Königsgräber. Im Glauben des Alten Reiches war der Pharao Horus in Menschengestalt auf Erden, dazu bestimmt, nach dem Tod mit Osiris zu verschmelzen, und die geneigten Flächen wirkten als Treppe, die sein Ka zum Sonnengott Re emporführte. Die Pyramiden zu bauen war daher zugleich ein Begräbnisprojekt und eine Aussage über die kosmische Ordnung, die Maat."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Starte mit dem Einsteiger-Guide zu Build the Pyramids",
+      "description": "Beginne mit dem Einsteiger-Guide und arbeite dich durch Baumethoden, Materialien, die Arbeitskräfte und die Zeitleiste, die das Plateau von Gizeh hervorbrachte.",
+      "primary": "Einsteiger-Guide lesen",
+      "secondary": "Build the Pyramid spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guides zu Build the Pyramids",
+    "overviewDescription": "Hier starten. Wie die Pyramiden gebaut wurden, wer sie baute, wann und warum — klare Antworten auf die ersten Fragen zum Plateau von Gizeh."
+  },
+  "construction": {
+    "overviewTitle": "Baumethoden von Build the Pyramids",
+    "overviewDescription": "Kalkstein brechen, Assuan-Granit transportieren, Kupferwerkzeuge, Schlitten und Rampensysteme — die Ingenieurskunst, die die Große Pyramide Block für Block emporhob."
+  },
+  "theories": {
+    "overviewTitle": "Theorien zu Build the Pyramids",
+    "overviewDescription": "Aliens, Sklaven oder bezahlte Fachkräfte? Die archäologischen Belege hinter jeder Erklärung, wie die Pyramiden gebaut wurden, gemessen am Befund."
+  },
+  "history": {
+    "overviewTitle": "Geschichte von Build the Pyramids",
+    "overviewDescription": "Die Pharaonen der 4. Dynastie, das Plateau von Gizeh und die Stufenpyramiden davor — die Zeitleiste von Ägyptens monumentaler Bauzeit."
+  },
+  "media": {
+    "overviewTitle": "Dokumentationen zu Build the Pyramids",
+    "overviewDescription": "Dokumentationen, Videos und Sendungen darüber, wie die Pyramiden gebaut wurden, samt Inhalt und Belastbarkeit der jeweiligen Aussagen."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "updated": "Aktualisiert",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!",
+    "close": "Schließen",
+    "closeAd": "Anzeige schließen"
+  },
+  "footer": {
+    "aboutTitle": "Build the Pyramids Wiki",
+    "about": "Das Build the Pyramids Wiki ist ein unabhängiger, von Fans betriebener Guide-Hub zu Baumethoden, Materialien, Werkzeugen, Arbeitskräften und dem historischen Befund der Monumente von Gizeh.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Build the Pyramids Wiki. Nicht mit Janitors Studios oder Roblox verbunden.",
+    "description": "Kostenloser Koop-Simulator zum Pyramidenbau auf Roblox. Trage Blöcke, trainiere Tempo und Stärke, vollende Pyramiden.",
+    "playGame": "Build the Pyramids spielen",
+    "officialDiscord": "Roblox-Gruppe (Janitors Studios)",
+    "officialYoutube": "Roblox auf YouTube",
+    "guideLink": "Ratgeber",
+    "constructionLink": "Bauweise",
+    "theoriesLink": "Theorien",
+    "historyLink": "Geschichte",
+    "mediaLink": "Medien",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "legal": {
+    "about": {
+      "title": "Über uns",
+      "description": "Über das Build the Pyramids Wiki: ein unabhängiger, von Spielern geschriebener Guide-Hub zum Bau der Pyramiden von Gizeh.",
+      "paragraphs": [
+        "Das Build the Pyramids Wiki ist ein unabhängiger, von Fans betriebener Guide-Hub zu den Baumethoden der Pyramiden, den Materialien, den Werkzeugen, den Arbeitskräften und dem historischen Befund der Monumente von Gizeh.",
+        "Alle Guides werden von Spielern geschrieben und stehen weder mit dem Entwickler des Spiels noch mit Roblox in Verbindung."
+      ]
+    },
+    "privacyPolicy": {
+      "title": "Datenschutzerklärung",
+      "description": "Wie das Build the Pyramids Wiki mit Analysen, Werbung, Hosting und externen Links umgeht.",
+      "paragraphs": [
+        "Dieses Fan-Wiki bietet informative Guides dazu, wie die Pyramiden gebaut wurden. Wir verlangen keine Kontozugangsdaten, Roblox-Passwörter oder private Zahlungsinformationen.",
+        "Grundlegende Analyse-, Werbe- und Hosting-Anbieter können übliche technische Informationen verarbeiten, etwa Gerätetyp, Browser, ungefähre Region und besuchte Seiten.",
+        "Externe Links können zu Roblox, YouTube oder Community-Werkzeugen führen. Für diese Dienste gelten deren eigene Datenschutzerklärungen."
+      ]
+    },
+    "termsOfService": {
+      "title": "Nutzungsbedingungen",
+      "description": "Die Bedingungen für die Nutzung des Build the Pyramids Wiki, eines unabhängigen Fan-Guide-Hubs.",
+      "paragraphs": [
+        "Diese Website ist ein unabhängiger, von Fans erstellter Guide-Hub. Die Inhalte dienen ausschließlich Informations- und Unterhaltungszwecken.",
+        "Historische Angaben, Maße und Forschungsergebnisse können bei neuen Belegen überarbeitet werden. Prüfe wichtige Informationen stets anhand der zitierten Quellen.",
+        "Mit der Nutzung dieser Website erklärst du dich damit einverstanden, sie nicht zu missbrauchen, keine unbefugten Zugriffe zu versuchen und dieses Fan-Wiki nicht als offizielles Eigentum von Janitors Studios oder Roblox darzustellen."
+      ]
+    },
+    "copyright": {
+      "title": "Urheberrecht",
+      "description": "Urheberrechts- und Quellenhinweis für das Build the Pyramids Wiki.",
+      "paragraphs": [
+        "Build the Pyramids, Roblox, Spielgrafiken, Logos und zugehörige Medien gehören ihren jeweiligen Eigentümern, einschließlich Janitors Studios.",
+        "Diese Website ist eine nicht offizielle Fan-Wiki-Umsetzung zu Bildungs- und Präsentationszwecken.",
+        "Wenn du Rechte an hier gezeigten Inhalten hältst und Bedenken hast, wende dich zur Prüfung an den Betreiber der Website."
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Der gesuchte Guide wurde möglicherweise verschoben oder noch nicht hinzugefügt.",
+    "cta": "Guides durchsuchen"
+  }
+}

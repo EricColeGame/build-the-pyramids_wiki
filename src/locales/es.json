@@ -1,1 +1,579 @@
-{}
+{
+  "site": {
+    "name": "Build the Pyramids Wiki",
+    "shortName": "Build the Pyramids",
+    "tagline": "Guías completas, métodos de construcción e historia",
+    "description": "¿Cómo se construyeron las pirámides? Explora los métodos de construcción de Giza, los materiales de caliza y granito, la mano de obra, las cronologías y las teorías que las rodean.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "guide": "Guía",
+    "construction": "Construcción",
+    "theories": "Teorías",
+    "history": "Historia",
+    "media": "Medios",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Build the Pyramids Wiki: Construcción e Historia",
+      "description": "¿Cómo se construyeron las pirámides? Guías sobre los métodos de construcción de Giza, los materiales de caliza y granito, las herramientas de cobre, la mano de obra, las cronologías y las teorías que las explican."
+    },
+    "hero": {
+      "eyebrow": "Ingeniería antigua explicada",
+      "title": "Build the Pyramids Wiki",
+      "description": "¿Cómo se construyeron las pirámides? Esta wiki repasa las pruebas: la extracción de 2,3 millones de bloques de caliza, el transporte de granito de Asuán a lo largo de 800 km Nilo abajo, el arrastre de trineos sobre arena humedecida y la elevación de rampas de tierra por encima de los 120 metros.",
+      "stats": [
+        "IV Dinastía",
+        "146,6 m la más alta",
+        "2,3 M de bloques",
+        "~20.000 trabajadores en el pico"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Jugar a Build the Pyramid",
+      "tertiaryCta": "Cómo se construyeron las pirámides",
+      "videoLabel": "Recorrido por la construcción"
+    },
+    "updates": {
+      "title": "Artículos recientes",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu punto de partida en Build the Pyramids",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Empieza por la IV Dinastía y los tres monumentos de Giza: quién los ordenó, cuándo se levantaron y para qué servían."
+        },
+        {
+          "number": "2",
+          "title": "Métodos de construcción",
+          "description": "Descubre cómo se extrajeron 2,3 millones de bloques de caliza, se arrastraron sobre arena humedecida, se transportaron en barcazas fluviales y se elevaron por rampas de tierra."
+        },
+        {
+          "number": "3",
+          "title": "Pruebas sobre la mano de obra",
+          "description": "Sigue la arqueología que acabó con el mito de la esclavitud: aldeas de trabajadores, panaderías, atención médica y enterramientos honoríficos junto a los monumentos."
+        },
+        {
+          "number": "4",
+          "title": "Teorías clasificadas",
+          "description": "Sopesa las explicaciones rivales, desde los elevadores hidráulicos alimentados por el Nilo hasta la intervención alienígena, frente al registro excavado."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Guías más leídas",
+      "quickLinks": [
+        "Meseta de Giza",
+        "Gran Pirámide",
+        "Mano de obra",
+        "Teorías"
+      ],
+      "cards": [
+        {
+          "badge": "Empieza aquí",
+          "title": "Guía para principiantes",
+          "description": "El recorrido inicial completo por los monumentos de Giza, las personas que los construyeron y los materiales con los que trabajaron.",
+          "href": "/guide"
+        },
+        {
+          "badge": "Esencial",
+          "title": "Cómo se construyeron las pirámides",
+          "description": "El modelo de trabajo: extracción en cantera, trineos, arena humedecida, barcazas fluviales y los sistemas de rampas que elevaron la piedra.",
+          "href": "/guide/build-the-pyramids-how-were-the-pyramids-built"
+        },
+        {
+          "badge": "Popular",
+          "title": "Quién construyó las pirámides",
+          "description": "Los artesanos, topógrafos y campesinos de temporada que hay detrás de los monumentos, y las pruebas que los identifican.",
+          "href": "/guide/build-the-pyramids-who-built-the-pyramids"
+        },
+        {
+          "badge": "Esencial",
+          "title": "Pirámides de Giza",
+          "description": "Comparación de Keops, Kefrén y Micerino por altura, longitud de la base, número de bloques y material del revestimiento.",
+          "href": "/history/build-the-pyramids-pyramids-of-giza"
+        },
+        {
+          "badge": "Popular",
+          "title": "Herramientas usadas para construir las pirámides",
+          "description": "Cinceles de cobre, mazas de dolerita, abrasivos de cuarzo y las cuñas de madera que separaban la caliza del lecho rocoso.",
+          "href": "/construction/build-the-pyramids-tools-used-to-build-the-pyramids"
+        },
+        {
+          "badge": "Esencial",
+          "title": "Materiales usados en Giza",
+          "description": "Caliza nummulítica local, revestimiento fino de Tura y el granito rosa de Asuán reservado para la Cámara del Rey.",
+          "href": "/construction/build-the-pyramids-materials-used-to-build-the-pyramids-of-giza"
+        },
+        {
+          "badge": "Debatido",
+          "title": "¿Construyeron esclavos las pirámides?",
+          "description": "La arqueología de la ciudad de los trabajadores, las raciones, el tratamiento médico y los cementerios honoríficos de Giza.",
+          "href": "/theories/build-the-pyramids-did-slaves-build-the-pyramids"
+        },
+        {
+          "badge": "Debatido",
+          "title": "¿Construyeron alienígenas las pirámides?",
+          "description": "Por qué el argumento de la tecnología perdida falla frente a los conjuntos excavados de cobre, dolerita, cuerda y trineo.",
+          "href": "/theories/build-the-pyramids-did-aliens-build-the-pyramids"
+        },
+        {
+          "badge": "Ver",
+          "title": "Documentales sobre las pirámides",
+          "description": "Documentales, vídeos y programas de larga duración sobre Giza, sus constructores y los debates de ingeniería.",
+          "href": "/media/build-the-pyramids-documentary"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Build the Pyramids?",
+      "paragraphs": [
+        "Build the Pyramids abarca la ingeniería que hay detrás de los monumentos de Giza, las tres tumbas de la IV Dinastía levantadas para Keops, Kefrén y Micerino entre aproximadamente el 2550 y el 2490 a. C. Todas las guías parten de pruebas excavadas: marcas de cantera, conjuntos de herramientas, aldeas de trabajadores, papiros administrativos y los propios monumentos.",
+        "A lo largo de 32 artículos puedes seguir toda la cadena de construcción, desde el corte de la caliza en la meseta y el envío de granito a 800 km Nilo abajo hasta el arrastre de bloques sobre arena humedecida y su elevación por rampas de tierra por encima de los 120 metros. La sección de teorías sopesa cada explicación rival —elevadores hidráulicos, tecnología perdida y trabajo esclavo— frente a lo que realmente muestra el registro arqueológico."
+      ],
+      "stats": [
+        {
+          "label": "Monumentos",
+          "value": "3 pirámides de Giza"
+        },
+        {
+          "label": "Altura máxima",
+          "value": "146,6 m"
+        },
+        {
+          "label": "Bloques del núcleo",
+          "value": "~2,3 millones"
+        },
+        {
+          "label": "Periodo de construcción",
+          "value": "20-27 años"
+        },
+        {
+          "label": "Mano de obra máxima",
+          "value": "~20.000"
+        },
+        {
+          "label": "Transporte de granito",
+          "value": "800 km"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora la wiki de Build the Pyramids",
+      "description": "Ocho secciones guiadas sobre cómo se construyeron las pirámides: métodos de construcción, materiales, herramientas, la mano de obra, la cronología y las teorías que aún se debaten hoy.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Build the Pyramids",
+          "description": "Un recorrido inicial por los monumentos de Giza: quién los ordenó, cuándo se levantaron, para qué servían y cómo se organizaban las cuadrillas.",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Empieza por el contexto: Keops, Kefrén y Micerino levantaron las pirámides de Giza durante la IV Dinastía de Egipto, entre aproximadamente el 2550 y el 2490 a. C."
+            },
+            {
+              "label": "2",
+              "detail": "Aprende para qué servía una pirámide: una tumba real y una escalera solar que elevaba el ka del faraón para unirse al dios solar Ra."
+            },
+            {
+              "label": "3",
+              "detail": "Conoce los tres monumentos: la Gran Pirámide con 146,6 m, la de Kefrén con 143,5 m y la de Micerino con 66,4 m."
+            },
+            {
+              "label": "4",
+              "detail": "Descubre cómo se organizaba la mano de obra: entre 4.000 y 5.000 especialistas permanentes apoyados por entre 15.000 y 20.000 trabajadores temporeros."
+            },
+            {
+              "label": "5",
+              "detail": "Sigue los materiales desde la cantera hasta la meseta: núcleo de caliza local, revestimiento fino de Tura y granito de Asuán traído desde más de 800 km río arriba."
+            },
+            {
+              "label": "6",
+              "detail": "Termina con la ingeniería: cinceles de cobre, mazas de dolerita, trineos lubricados con agua y rampas de tierra que superaban los 120 m."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Métodos de construcción de Build the Pyramids",
+          "description": "El modelo de construcción aceptado: extracción en cantera, trineos sobre arena humedecida, barcazas fluviales, rampas de tierra y la topografía que fijó el norte verdadero.",
+          "href": "/construction",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Extracción",
+              "detail": "La extracción a cielo abierto en el lecho rocoso de Giza produjo bloques de núcleo sin labrar de unas 2,5 toneladas de media."
+            },
+            {
+              "label": "Rampas",
+              "detail": "Las rampas rectas servían para los pisos inferiores, mientras que las rampas en zigzag y las espirales internas llevaban la piedra a los niveles superiores."
+            },
+            {
+              "label": "Trineos",
+              "detail": "Los trineos de madera sobre arena humedecida reducían la fricción de deslizamiento en torno a un 50 %, lo que permitía que cuadrillas pequeñas arrastraran bloques de 60 toneladas."
+            },
+            {
+              "label": "Barcazas",
+              "detail": "Las barcazas de carga con casco de sicómoro de 100 a 300 toneladas transportaban el granito y la caliza de Tura por el Nilo en crecida."
+            },
+            {
+              "label": "Revestimiento",
+              "detail": "La caliza blanca fina de Tura se colocaba como envoltura exterior, dando a la pirámide terminada su cara lisa y reflectante."
+            },
+            {
+              "label": "Alineación",
+              "detail": "Los constructores fijaron el norte verdadero con gnomones que proyectaban sombras y observaciones de las estrellas circumpolares."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Datos de la Gran Pirámide",
+          "description": "Las cifras clave del monumento de Keops, desde su altura original y la longitud de su base hasta el número de bloques y sus cámaras interiores.",
+          "href": "/history/build-the-pyramids-great-pyramid",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "146,6 m",
+              "detail": "Altura original de la Gran Pirámide de Keops, la estructura humana más alta del planeta durante más de 3.800 años.",
+              "badge": "Altura"
+            },
+            {
+              "label": "230 m",
+              "detail": "Longitud de cada lado de la base, trazada con un margen de una fracción de grado respecto al norte verdadero.",
+              "badge": "Base"
+            },
+            {
+              "label": "2,3 M",
+              "detail": "Número estimado de bloques de piedra en el núcleo, el revestimiento y las cámaras interiores de la Gran Pirámide.",
+              "badge": "Bloques"
+            },
+            {
+              "label": "5,75 M ton",
+              "detail": "Peso total aproximado del monumento, levantado a lo largo de unos 20 a 27 años de trabajo continuo.",
+              "badge": "Peso"
+            },
+            {
+              "label": "Keops",
+              "detail": "El faraón de la IV Dinastía para quien se levantó la Gran Pirámide; los griegos lo llamaron Keops.",
+              "badge": "Faraón"
+            },
+            {
+              "label": "Gran Galería",
+              "detail": "El pasillo ascendente con ménsulas de 46,6 m que conduce a la Cámara del Rey y a sus vigas de granito.",
+              "badge": "Interior"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Cronología de la construcción",
+          "description": "Un recorrido cronológico desde la pirámide escalonada de Zoser en Saqqara hasta los tres monumentos de la IV Dinastía en la meseta de Giza.",
+          "href": "/guide/build-the-pyramids-how-long-to-build-the-pyramids",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Hacia el 2670 a. C.: se levanta en Saqqara la pirámide escalonada de Zoser, la primera pirámide, diseñada por el arquitecto Imhotep como seis niveles superpuestos."
+            },
+            {
+              "label": "2",
+              "detail": "Principios de la IV Dinastía: los constructores de Seneferu en Meidum y Dahshur definen la pirámide de caras lisas tras los primeros derrumbes."
+            },
+            {
+              "label": "3",
+              "detail": "Hacia el 2550 a. C.: comienzan las obras de la Gran Pirámide de Keops en Giza, que alcanzaría 146,6 m con unos 2,3 millones de bloques."
+            },
+            {
+              "label": "4",
+              "detail": "20 a 27 años: la horquilla de construcción aceptada para la Gran Pirámide, que exigía colocar unos 100.000 bloques al año."
+            },
+            {
+              "label": "5",
+              "detail": "Hacia el 2520 a. C.: Kefrén añade la segunda pirámide de Giza con 143,5 m, asentada sobre roca más alta para parecer la más elevada."
+            },
+            {
+              "label": "6",
+              "detail": "Hacia el 2490 a. C.: Micerino completa la meseta con una pirámide de 66,4 m acabada en granito rojo de Asuán."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía sobre la mano de obra",
+          "description": "La arqueología de quienes hicieron el trabajo: aldeas de trabajadores, raciones, atención médica, enterramientos honoríficos y el sistema de corvea.",
+          "href": "/theories/build-the-pyramids-slaves-or-workers",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Trabajadores",
+              "detail": "Las excavaciones en la aldea de trabajadores de Giza muestran una mano de obra remunerada y organizada, no el ejército esclavizado del mito popular."
+            },
+            {
+              "label": "Raciones",
+              "detail": "Las cuadrillas se alimentaban de panaderías, cervecerías y carnicerías del propio yacimiento que abastecían a miles de trabajadores cada día."
+            },
+            {
+              "label": "Medicina",
+              "detail": "Los esqueletos muestran fracturas curadas e incluso trepanaciones exitosas, unos cuidados que nunca se darían a cautivos prescindibles."
+            },
+            {
+              "label": "Enterramientos",
+              "detail": "Los trabajadores fueron enterrados en cementerios honoríficos junto a los monumentos que levantaron, un privilegio negado a los esclavos."
+            },
+            {
+              "label": "Corvea",
+              "detail": "Los campesinos de temporada saldaban su obligación fiscal de corvea durante la crecida de Akhet, cuando sus campos quedaban bajo el agua."
+            },
+            {
+              "label": "Cuadrillas",
+              "detail": "Los trabajadores se dividían en cuadrillas con nombre propio y sus propios capataces, que competían por cuotas y quedaron registradas en papiros."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de documentales",
+          "description": "Documentales, vídeos y programas de larga duración sobre Giza, sus constructores y los debates de ingeniería que siguen abiertos.",
+          "href": "/media",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Panorama",
+              "detail": "Empieza con un documental amplio sobre la meseta de Giza, sus tres monumentos y los constructores de la IV Dinastía."
+            },
+            {
+              "label": "BBC",
+              "detail": "Las producciones de la BBC recorren la arqueología de la ciudad de los trabajadores y la logística que hizo posible la Gran Pirámide."
+            },
+            {
+              "label": "Largometraje",
+              "detail": "Los programas de larga duración siguen toda la secuencia de construcción, desde la cantera hasta el revestimiento acabado."
+            },
+            {
+              "label": "YouTube",
+              "detail": "Vídeos explicativos gratuitos desglosan en formato corto las teorías de las rampas, los trineos y los experimentos de movimiento de bloques."
+            },
+            {
+              "label": "Infantil",
+              "detail": "Vídeos y actividades para niños introducen la ingeniería del antiguo Egipto sin mitos ni misterios."
+            },
+            {
+              "label": "Cine",
+              "detail": "Las representaciones de Hollywood sobre la construcción de las pirámides son entretenidas, pero se alejan mucho del registro arqueológico."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Teorías clasificadas",
+          "description": "Explicaciones rivales sobre cómo se levantaron las pirámides, clasificadas según su resistencia frente a las pruebas excavadas.",
+          "href": "/theories",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Trabajo documentado: las aldeas de trabajadores, panaderías, atención médica y cementerios honoríficos resuelven quién construyó los monumentos de Giza."
+            },
+            {
+              "label": "A",
+              "detail": "Sistemas de rampas: las rampas rectas, en zigzag y las espirales internas dejan rastro arqueológico y siguen siendo el modelo principal."
+            },
+            {
+              "label": "B",
+              "detail": "Transporte asistido por agua: los canales de crecida del Nilo y la arena humedecida están bien sustentados, pero los elevadores hidráulicos internos siguen en debate."
+            },
+            {
+              "label": "C",
+              "detail": "Construcción alienígena: las afirmaciones de tecnología perdida se apoyan en la incredulidad y contradicen todos los conjuntos de herramientas excavados."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Herramientas y materiales",
+          "description": "El instrumental del Imperio Antiguo y la piedra que trabajaba: cinceles de cobre, mazas de dolerita, abrasivos de cuarzo y cuñas hinchadas con agua.",
+          "href": "/construction/build-the-pyramids-tools-used-to-build-the-pyramids",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Cincel de cobre",
+              "detail": "Los cinceles de cobre sin alear y de bronce arsenical cortaban la caliza de Tura y se volvían a forjar en la obra a medida que se desafilaban.",
+              "badge": "Corte"
+            },
+            {
+              "label": "Maza de dolerita",
+              "detail": "Las duras mazas de dolerita machacaban el granito de Asuán, que las herramientas metálicas no podían tocar.",
+              "badge": "Granito"
+            },
+            {
+              "label": "Arena de cuarzo",
+              "detail": "La lechada de cuarzo permitía que las sierras de cobre sin dientes atravesaran el granito de los sarcófagos y los dinteles.",
+              "badge": "Abrasivo"
+            },
+            {
+              "label": "Cuña de madera",
+              "detail": "Las cuñas secas de acacia, clavadas en las grietas de la caliza y empapadas en agua, separaban los bloques del lecho rocoso.",
+              "badge": "Partido"
+            },
+            {
+              "label": "Cuerda de halfa",
+              "detail": "Las cuerdas trenzadas de hierba halfa y papiro, con una resistencia de 900 a 3.600 kg, enjaezaban a las cuadrillas de arrastre.",
+              "badge": "Arrastre"
+            },
+            {
+              "label": "Trineo de cedro",
+              "detail": "Los trineos de cedro del Líbano y de acacia repartían cargas de hasta 60 toneladas sobre anchos patines de madera.",
+              "badge": "Transporte"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre Build the Pyramids",
+      "description": "Preguntas habituales sobre cómo se construyeron las pirámides, respondidas a partir del registro arqueológico.",
+      "items": [
+        {
+          "question": "¿Cuánto se tardó en construir las pirámides de Giza?",
+          "answer": "Los documentos administrativos y los anales reales sitúan la Gran Pirámide en unos 20 a 27 años. Si el monumento de Keops se terminó en 23 años, las cuadrillas extrajeron, movieron y colocaron unos 100.000 bloques cada año para construir las pirámides con ese calendario."
+        },
+        {
+          "question": "¿Quién construyó las pirámides?",
+          "answer": "Los constructores eran egipcios. Las excavaciones en la aldea de trabajadores de Giza descubrieron barracones, panaderías, carnicerías y dependencias médicas, y los cementerios de trabajadores contienen fracturas curadas y enterramientos honoríficos. Para construir las pirámides, Egipto movilizó entre 4.000 y 5.000 especialistas permanentes más entre 15.000 y 20.000 trabajadores temporeros durante la crecida del Nilo."
+        },
+        {
+          "question": "¿Construyeron esclavos las pirámides?",
+          "answer": "Las pruebas no lo respaldan. Los restos óseos muestran lesiones tratadas e incluso cirugía cerebral exitosa, unos cuidados que nunca se daban a cautivos prescindibles, y los trabajadores fueron enterrados en cementerios junto a los monumentos que levantaron. Las cuadrillas que ayudaron a construir las pirámides saldaban una obligación fiscal de corvea durante la temporada de crecida."
+        },
+        {
+          "question": "¿Qué herramientas se usaron para construir las pirámides?",
+          "answer": "Los constructores del Imperio Antiguo no tenían hierro. Para construir las pirámides usaron cinceles de cobre sin alear y de bronce arsenical para la caliza, mazas de dolerita y lechada de arena de cuarzo para el granito de Asuán, y cuñas de madera seca hinchadas con agua para separar los bloques del lecho rocoso."
+        },
+        {
+          "question": "¿Qué piedra se usó para construir las pirámides?",
+          "answer": "La mayor parte del volumen salió de la propia meseta: la caliza nummulítica sin labrar, de unas 2,5 toneladas por bloque, formó el núcleo. La caliza blanca fina de Tura, extraída al otro lado del Nilo, se colocó como revestimiento exterior, y el granito rosa de Asuán, traído desde más de 800 km río arriba, revistió los pisos inferiores y techó la Cámara del Rey. Todos los materiales usados para construir las pirámides viajaron en trineo, cuerda y barcaza fluvial."
+        },
+        {
+          "question": "¿Por qué se construyeron las pirámides?",
+          "answer": "Eran tumbas reales. En la creencia del Imperio Antiguo, el faraón era Horus encarnado en la tierra y estaba destinado a unirse a Osiris tras la muerte, y las caras inclinadas funcionaban como una escalera que elevaba su ka hacia el dios solar Ra. Construir las pirámides era, por tanto, a la vez un proyecto funerario y una afirmación del orden cósmico, o maat."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Empieza con la guía para principiantes de Build the Pyramids",
+      "description": "Comienza por la guía para principiantes y sigue con los métodos de construcción, los materiales, la mano de obra y la cronología que dieron forma a la meseta de Giza.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar a Build the Pyramid"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías de Build the Pyramids",
+    "overviewDescription": "Empieza aquí. Cómo se construyeron las pirámides, quién las construyó, cuándo y por qué: respuestas claras a las primeras preguntas que se hacen los lectores sobre la meseta de Giza."
+  },
+  "construction": {
+    "overviewTitle": "Métodos de construcción de Build the Pyramids",
+    "overviewDescription": "Extraer caliza, transportar granito de Asuán, herramientas de cobre, trineos y sistemas de rampas: la ingeniería que levantó la Gran Pirámide bloque a bloque."
+  },
+  "theories": {
+    "overviewTitle": "Teorías sobre Build the Pyramids",
+    "overviewDescription": "¿Alienígenas, esclavos o trabajadores cualificados remunerados? Las pruebas arqueológicas que hay detrás de cada explicación sobre cómo se construyeron las pirámides, contrastadas con el registro."
+  },
+  "history": {
+    "overviewTitle": "Historia de Build the Pyramids",
+    "overviewDescription": "Los faraones de la IV Dinastía, la meseta de Giza y las pirámides escalonadas que llegaron antes: la cronología de la era monumental de Egipto."
+  },
+  "media": {
+    "overviewTitle": "Documentales sobre Build the Pyramids",
+    "overviewDescription": "Documentales, vídeos y programas sobre cómo se construyeron las pirámides, además de qué cubre cada uno y qué afirmaciones se sostienen."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "updated": "Actualizado",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!",
+    "close": "Cerrar",
+    "closeAd": "Cerrar anuncio"
+  },
+  "footer": {
+    "aboutTitle": "Build the Pyramids Wiki",
+    "about": "Build the Pyramids Wiki es un centro de guías independiente creado por fans que cubre métodos de construcción, materiales, herramientas, la mano de obra y el registro histórico de los monumentos de Giza.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Build the Pyramids Wiki. Sin afiliación con Janitors Studios ni con Roblox.",
+    "description": "Simulador cooperativo gratuito de construcción de pirámides en Roblox. Transporta bloques, entrena velocidad y fuerza y completa pirámides.",
+    "playGame": "Jugar a Build the Pyramids",
+    "officialDiscord": "Grupo de Roblox (Janitors Studios)",
+    "officialYoutube": "Roblox en YouTube",
+    "guideLink": "Guía",
+    "constructionLink": "Construcción",
+    "theoriesLink": "Teorías",
+    "historyLink": "Historia",
+    "mediaLink": "Medios",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos del servicio"
+  },
+  "legal": {
+    "about": {
+      "title": "Acerca de",
+      "description": "Acerca de Build the Pyramids Wiki: un centro de guías independiente escrito por jugadores sobre cómo se construyeron las pirámides de Giza.",
+      "paragraphs": [
+        "Build the Pyramids Wiki es un centro de guías independiente creado por fans que cubre los métodos de construcción de las pirámides, los materiales, las herramientas, la mano de obra y el registro histórico de los monumentos de Giza.",
+        "Todas las guías están escritas por jugadores y no están afiliadas al desarrollador del juego ni a Roblox."
+      ]
+    },
+    "privacyPolicy": {
+      "title": "Política de privacidad",
+      "description": "Cómo gestiona Build the Pyramids Wiki los análisis, la publicidad, el alojamiento y los enlaces externos.",
+      "paragraphs": [
+        "Esta wiki de fans ofrece guías informativas sobre cómo se construyeron las pirámides. No solicitamos credenciales de cuenta, contraseñas de Roblox ni información de pago privada.",
+        "Los proveedores básicos de análisis, publicidad y alojamiento pueden procesar información técnica estándar, como el tipo de dispositivo, el navegador, la región aproximada y las páginas visitadas.",
+        "Los enlaces externos pueden llevar a Roblox, YouTube o herramientas de la comunidad. Esos servicios se rigen por sus propias políticas de privacidad."
+      ]
+    },
+    "termsOfService": {
+      "title": "Términos del servicio",
+      "description": "Las condiciones que rigen el uso de Build the Pyramids Wiki, un centro de guías independiente hecho por fans.",
+      "paragraphs": [
+        "Este sitio es un centro de guías independiente hecho por fans. El contenido se ofrece únicamente con fines informativos y de entretenimiento.",
+        "Los detalles históricos, las medidas y los hallazgos de la investigación pueden revisarse a medida que aparezcan nuevas pruebas. Verifica siempre la información importante con las fuentes citadas.",
+        "Al usar este sitio, aceptas no hacer un uso indebido de él, no intentar accesos no autorizados y no presentar esta wiki de fans como una propiedad oficial de Janitors Studios o de Roblox."
+      ]
+    },
+    "copyright": {
+      "title": "Derechos de autor",
+      "description": "Aviso de derechos de autor y atribución de Build the Pyramids Wiki.",
+      "paragraphs": [
+        "Build the Pyramids, Roblox, los gráficos del juego, los logotipos y los medios relacionados pertenecen a sus respectivos propietarios, incluido Janitors Studios.",
+        "Este sitio es una implementación de wiki de fans no oficial con fines educativos y de presentación de guías.",
+        "Si posees los derechos del contenido mostrado aquí y tienes alguna objeción, ponte en contacto con el operador del sitio para su revisión."
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La guía que buscas puede haberse movido o puede que aún no se haya añadido.",
+    "cta": "Explorar las guías"
+  }
+}

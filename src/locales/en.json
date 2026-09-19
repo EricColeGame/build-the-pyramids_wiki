@@ -2,8 +2,8 @@
   "site": {
     "name": "Build the Pyramids Wiki",
     "shortName": "Build the Pyramids",
-    "tagline": "Complete Guides, Codes, Building Tips & Progression",
-    "description": "Your ultimate guide to Build the Pyramids on Roblox! Explore pyramid building strategies, active codes, upgrade paths, item databases, and progression guides.",
+    "tagline": "Complete Guides, Construction Methods & History",
+    "description": "How were the pyramids built? Explore Giza construction methods, limestone and granite materials, the workforce, timelines, and the theories behind them.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -500,9 +500,7 @@
   },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -513,11 +511,13 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "close": "Close",
+    "closeAd": "Close ad"
   },
   "footer": {
     "aboutTitle": "Build the Pyramids Wiki",
-    "about": "Build the Pyramids Wiki is an independent fan-built guide hub covering building routes, upgrades, items, codes, and essential game knowledge for new and veteran players alike.",
+    "about": "Build the Pyramids Wiki is an independent fan-built guide hub covering construction methods, materials, tools, the workforce, and the historical record behind the Giza monuments.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
@@ -533,5 +533,47 @@
     "mediaLink": "Media",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "legal": {
+    "about": {
+      "title": "About",
+      "description": "About Build the Pyramids Wiki: an independent, player-written guide hub on how the Giza pyramids were built.",
+      "paragraphs": [
+        "Build the Pyramids Wiki is an independent fan-built guide hub covering pyramid construction methods, materials, tools, the workforce, and the historical record behind the Giza monuments.",
+        "All guides are written by players and are not affiliated with the game's developer or with Roblox."
+      ]
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "description": "How Build the Pyramids Wiki handles analytics, advertising, hosting, and external links.",
+      "paragraphs": [
+        "This fan wiki provides informational guides on how the pyramids were built. We do not request account credentials, Roblox passwords, or private payment information.",
+        "Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.",
+        "External links may lead to Roblox, YouTube, or community tools. Those services are governed by their own privacy policies."
+      ]
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "description": "The terms covering use of Build the Pyramids Wiki, an independent fan-made guide hub.",
+      "paragraphs": [
+        "This site is an independent fan-made guide hub. Content is provided for informational and entertainment purposes only.",
+        "Historical details, measurements, and research findings may be revised as new evidence emerges. Always verify important information against the cited sources.",
+        "By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official Janitors Studios or Roblox property."
+      ]
+    },
+    "copyright": {
+      "title": "Copyright",
+      "description": "Copyright and attribution notice for Build the Pyramids Wiki.",
+      "paragraphs": [
+        "Build the Pyramids, Roblox, in-game artwork, logos, and related media belong to their respective owners, including Janitors Studios.",
+        "This site is a non-official fan wiki implementation for educational and guide presentation purposes.",
+        "If you own rights to content displayed here and have a concern, please contact the site operator for review."
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The guide you are looking for may have moved or has not been added yet.",
+    "cta": "Browse the Guides"
   }
 }
